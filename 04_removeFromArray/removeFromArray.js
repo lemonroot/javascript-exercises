@@ -1,7 +1,9 @@
 let array = [];
-let spliced;
 
+// Separate args from array
 const removeFromArray = function(array, ...args) {
+
+    // Remove "x" from array, where x == args
     return array.filter(x => !args.includes(x))
 };
 
