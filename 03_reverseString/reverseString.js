@@ -1,7 +1,5 @@
 const string = '';
-reverseString(string);
-
-function reverseString(string){
+const reverseString = function(string){
     let stringArray = [];
     let reversedString;
     
